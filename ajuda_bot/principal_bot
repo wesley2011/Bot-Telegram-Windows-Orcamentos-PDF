@@ -1,0 +1,97 @@
+Conversação: Menu Principal
+Nesta conversação, o bot oferece um menu principal onde os usuários podem escolher várias opções. Cada opção levará a diferentes fluxos de conversa.
+
+Comando /start: Inicia a conversação e exibe o menu principal.
+
+Opções do Menu Principal:
+
+Cadastrar: Permite cadastrar um novo cliente, matriz ou cancelar a operação de cadastro.
+Listar Cadastros: Exibe uma lista dos clientes e matrizes cadastrados.
+Orçamento: Inicia o processo de geração de um novo orçamento.
+Adicionar Crédito: Permite ao administrador adicionar créditos a um usuário.
+Excluir Cadastro: Permite ao administrador excluir um cadastro de cliente ou matriz.
+Comando /cancelar: Cancela a operação em andamento em qualquer ponto da conversação.
+
+Conversação: Cadastrar Cadastro
+Esta conversação permite que os usuários cadastrem um novo cliente ou matriz.
+
+Comando /menu: Exibe o menu principal, incluindo a opção "Cadastrar".
+Seleção do Tipo de Cadastro:
+Cliente: Inicia o processo de cadastro de um novo cliente.
+Matriz: Inicia o processo de cadastro de uma nova matriz.
+Cancelar: Cancela a operação de cadastro e volta ao menu principal.
+Cadastro de Cliente/Matriz:
+O bot solicitará os dados do cliente ou matriz, como nome e CPF/CNPJ.
+Os campos serão preenchidos em etapas, e o usuário poderá revisar e confirmar as informações inseridas.
+Conversação: Listar Cadastros
+Esta conversação permite listar os clientes e matrizes cadastrados.
+
+Comando /menu: Exibe o menu principal, incluindo a opção "Listar Cadastros".
+Listar Cadastros:
+O bot exibirá uma lista dos clientes e matrizes cadastrados.
+O usuário pode selecionar "Clientes" ou "Matrizes" para visualizar a lista correspondente.
+Conversação: Orçamento
+Nesta conversação, o bot guiará o usuário no processo de geração de um novo orçamento em formato PDF.
+
+Comando /iniciar_orcamento: Inicia a conversação e exibe a lista de clientes cadastrados para seleção.
+Selecionar Cliente:
+O bot exibirá a lista de clientes cadastrados.
+O usuário deve selecionar um cliente da lista para prosseguir.
+Receber Mensagem do Orçamento:
+O bot solicitará ao usuário que envie uma mensagem para o orçamento.
+O usuário pode digitar a mensagem que deseja incluir no orçamento.
+Adicionar Linha de Orçamento:
+O bot permitirá que o usuário insira várias mensagens para compor o orçamento.
+Receber Valor Total do Orçamento:
+O bot solicitará ao usuário que envie o valor total do orçamento.
+O usuário deve digitar o valor total no formato numérico.
+Adicionar Observação (opcional):
+O bot perguntará se o usuário deseja incluir uma observação no orçamento.
+O usuário pode optar por incluir ou não uma observação.
+Concluir Orçamento:
+O bot exibirá as informações do orçamento para revisão.
+Após a revisão, o orçamento será gerado em formato PDF e enviado ao usuário.
+Conversação: Adicionar Crédito
+Nesta conversação, o administrador pode adicionar créditos a um usuário.
+
+Comando /add_credito: Inicia a conversação e exibe a lista de usuários cadastrados para seleção.
+Selecionar Usuário:
+O bot exibirá a lista de usuários cadastrados.
+O administrador deve selecionar um usuário da lista para prosseguir.
+Selecionar Opção:
+O bot exibirá opções para adicionar créditos ao usuário selecionado ou cancelar a operação.
+O administrador pode selecionar "Adicionar Crédito" ou "Cancelar" a operação.
+Quantidade de Créditos:
+O bot solicitará ao administrador que envie a quantidade de créditos a serem adicionados.
+O administrador deve digitar a quantidade de créditos.
+Quantidade de Dias de Validade:
+O bot solicitará ao administrador que envie a quantidade de dias de validade dos créditos.
+O administrador deve digitar a quantidade de dias.
+Conversação: Excluir Cadastro
+Nesta conversação, o administrador pode excluir um cadastro de cliente ou matriz.
+
+Comando /remover_cadastro: Inicia a conversação e exibe as opções para excluir um cadastro.
+Escolher Tipo de Cadastro:
+O bot exibirá as opções para excluir um cadastro de cliente ou matriz.
+O administrador deve selecionar o tipo de cadastro a ser excluído.
+Excluir Cadastro:
+O bot solicitará ao administrador que selecione o cliente ou matriz a ser excluído.
+O administrador deve selecionar o cadastro desejado para excluir.
+Conversação: Gerenciamento de Imagens
+Nesta conversação, o bot permite que os usuários gerenciem suas imagens enviadas.
+
+Comando /menu: Exibe o menu principal, incluindo a opção "Ver Foto", "Enviar Foto" e "Excluir Foto".
+Enviar Foto:
+O bot solicitará ao usuário que envie uma foto para armazenar.
+O usuário pode enviar a foto desejada.
+Confirmação de Envio de Imagem:
+O bot solicitará ao usuário que confirme o envio da imagem.
+O usuário pode confirmar ou cancelar o envio.
+Ver Foto:
+O bot exibirá a imagem enviada anteriormente pelo usuário.
+Se nenhuma imagem for enviada, o bot informará que nenhuma imagem foi enviada.
+Excluir Foto:
+O bot permitirá que o usuário exclua a imagem enviada anteriormente.
+Se nenhuma imagem for enviada, o bot informará que nenhuma imagem foi enviada.
+Comando /cancelar: Cancela a operação em andamento em qualquer ponto da conversação.
+Cada conversação apresenta fluxos específicos e opções interativas para os usuários e administradores. Sinta-se à vontade para interagir com o bot e experimentar suas funcionalidades. Caso precise de mais informações ou ajuda, utilize o comando /ajuda para obter assistência adicional.

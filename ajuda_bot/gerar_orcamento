@@ -1,0 +1,36 @@
+Ajuda: Geração de Orçamento em PDF
+A função iniciar_orcamento é responsável por iniciar o processo de geração de um orçamento em formato PDF usando o Telegram Bot API. Nesta etapa inicial, o bot guiará o usuário por meio de perguntas simples para coletar as informações necessárias para criar o orçamento. Siga os passos abaixo para gerar um orçamento:
+
+Iniciando o Processo:
+Para iniciar o processo de geração de orçamento, envie o comando /iniciar_orcamento para o bot. O bot verificará se você possui créditos suficientes ou um plano mensal para realizar esta operação.
+
+Selecionando o Cliente:
+O bot exibirá uma lista de clientes cadastrados e solicitará que você selecione um cliente para o qual deseja gerar o orçamento. Os clientes são previamente cadastrados por você durante o uso do bot.
+
+Enviando uma Mensagem para o Orçamento:
+Após selecionar o cliente, o bot solicitará que você envie uma mensagem com a descrição do serviço ou produto a ser orçado. Por exemplo, você pode enviar a mensagem: "Serviço de pintura residencial completa".
+
+Adicionando Mais Mensagens (Opcional):
+Caso deseje adicionar mais informações ao orçamento, você pode enviar mais mensagens. O bot oferecerá a opção de inserir uma nova mensagem ou concluir o processo.
+
+Informando o Valor Total do Orçamento:
+Quando finalizar a inclusão das mensagens, o bot pedirá que você envie o valor total do orçamento. Digite o valor no formato numérico, utilizando vírgula como separador decimal, por exemplo: "1250,50".
+
+Adicionando Observação (Opcional):
+O bot perguntará se você deseja incluir alguma observação ao orçamento. Você pode responder "Sim" para adicionar uma observação ou "Não" para prosseguir sem observação.
+
+Enviando a Observação (Opcional):
+Se optar por incluir uma observação, digite a mensagem da observação. Caso contrário, o bot incluirá automaticamente uma mensagem padrão, como "Obrigado pela preferência!".
+
+Gerando o Orçamento em PDF:
+Com todas as informações do orçamento coletadas, o bot processará os dados e gerará um arquivo PDF com o orçamento. Aguarde enquanto o bot processa as informações.
+
+Recebendo o Orçamento em PDF:
+Após o processamento, o bot enviará o arquivo PDF do orçamento para você. Você poderá visualizá-lo e salvá-lo no dispositivo.
+
+Processo Concluído:
+O processo de geração de orçamento será concluído, e o bot estará pronto para receber novos comandos ou realizar outras operações.
+
+Lembre-se que o sucesso na geração de orçamentos está sujeito à disponibilidade de créditos suficientes ou de um plano mensal ativo. Caso não atenda aos requisitos, o bot informará que não é possível prosseguir com a operação.
+
+Agora que você conhece os passos envolvidos, sinta-se à vontade para interagir com o bot e gerar orçamentos em PDF com facilidade! Em caso de dúvidas ou problemas, utilize o comando /ajuda para obter mais informações sobre o funcionamento do bot.

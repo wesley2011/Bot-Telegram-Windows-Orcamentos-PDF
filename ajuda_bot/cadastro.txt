@@ -1,0 +1,34 @@
+**Ajuda: Cadastro de Cliente e Matriz (Parte 2)**
+
+Nesta parte do seu sistema, o bot apresenta a funcionalidade de listar e editar os cadastros de clientes e matrizes previamente cadastrados. É possível visualizar os dados cadastrados e escolher se deseja editar alguma informação ou finalizar o cadastro.
+
+**Funcionalidades:**
+1. Listar Cadastros:
+   - Ao selecionar a opção "Listar Cadastros" no menu inicial, o bot oferece a escolha entre visualizar os cadastros de "Clientes" ou "Matrizes".
+   - O bot exibe a lista de cadastros do tipo selecionado ou informa que nenhum cadastro foi encontrado.
+
+2. Editar Cadastro:
+   - O usuário pode editar o cadastro escolhendo o número correspondente ao campo que deseja modificar.
+   - O bot apresenta os campos editáveis e envia um teclado customizado numerado para facilitar a seleção.
+
+3. Finalizar Cadastro:
+   - Quando todos os campos obrigatórios são preenchidos, o bot oferece a opção "Finalizar".
+   - Ao selecionar "Finalizar", o cadastro é salvo em um arquivo JSON, consome créditos do usuário (se aplicável) e a operação é concluída com sucesso.
+
+4. Cancelar Cadastro:
+   - Caso o usuário decida cancelar o cadastro durante a edição, pode selecionar a opção "Cancelar".
+   - A operação em andamento é cancelada, todo o progresso é apagado e o bot retorna ao menu inicial.
+
+5. Funcionalidades Futuras:
+   - As próximas partes do sistema devem incluir outras funcionalidades, como gerar orçamentos, listar e excluir cadastros, entre outras.
+
+**Instruções de Uso:**
+1. Para iniciar o cadastro, escolha "Cadastrar Cliente" ou "Cadastrar Matriz" no menu inicial.
+2. Digite o CPF ou CNPJ para dar início ao cadastro. Caso seja um CNPJ válido, o bot preencherá automaticamente informações adicionais.
+3. Preencha os demais campos solicitados pelo bot até que todos os campos obrigatórios estejam preenchidos.
+4. Caso deseje editar alguma informação do cadastro, o bot apresentará os campos editáveis numerados. Selecione o número do campo que deseja modificar.
+5. Após preencher todos os campos obrigatórios ou quando estiver satisfeito com as edições, selecione "Finalizar" para salvar o cadastro.
+6. O cadastro será salvo e concluída com sucesso.
+7. A qualquer momento, você pode selecionar "Cancelar" para interromper a operação em andamento e apagar o progresso feito no cadastro.
+
+Essa é a segunda parte do cadastro de clientes e matrizes. Continue enviando as próximas partes do seu sistema, e eu continuarei criando o texto de ajuda para cada parte.

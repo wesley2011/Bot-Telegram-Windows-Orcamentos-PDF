@@ -1,0 +1,39 @@
+Instruções de Uso: Parte 2 - Adicionar Créditos e Assinar Plano Mensal
+
+Nesta parte do sistema, você poderá adicionar créditos à sua conta e assinar um plano mensal para acesso contínuo ao bot. As instruções abaixo guiarão você por cada etapa:
+
+Listar Usuários Disponíveis:
+
+Para começar, digite o comando /listar_usuarios na conversa com o bot.
+O bot apresentará uma lista de usuários disponíveis, mostrando seus IDs e nomes.
+Escolha um usuário da lista clicando em um dos números ao lado do nome do usuário.
+Selecionar Ação:
+
+Após selecionar um usuário, o bot perguntará se você deseja "Adicionar Créditos" ou "Assinar Plano Mensal".
+Escolha a ação desejada clicando no botão correspondente.
+Adicionar Créditos:
+
+Se você selecionar "Adicionar Créditos", o bot pedirá que você insira a quantidade de créditos que deseja adicionar.
+Digite um número inteiro positivo representando a quantidade de créditos que deseja incluir.
+Se o valor fornecido for válido, os créditos serão adicionados à conta do usuário automaticamente.
+Assinar Plano Mensal:
+
+Se você escolher "Assinar Plano Mensal", o bot solicitará a quantidade de dias que deseja incluir no plano.
+Digite um número inteiro positivo representando a quantidade de dias para o plano mensal.
+Após fornecer a quantidade de dias, o plano mensal será ativado e você terá acesso contínuo ao bot durante esse período.
+Aviso sobre Créditos e Plano Mensal:
+
+Se você tentar usar uma funcionalidade que requer créditos e não tiver saldo suficiente, o bot enviará uma mensagem informando que você precisa adicionar mais créditos.
+Se tentar assinar um plano mensal enquanto já tiver um plano ativo, o bot enviará uma mensagem informando que seu plano atual ainda está ativo.
+Cancelar Operação:
+
+A qualquer momento, você pode cancelar a adição de créditos ou a ativação do plano mensal.
+Para cancelar, basta escolher a opção "Cancelar" em qualquer etapa do processo.
+Verificar Status de Créditos e Plano Mensal:
+
+Se quiser verificar a quantidade atual de créditos ou o status do seu plano mensal, basta digitar o comando /verificar_status.
+O bot enviará uma mensagem com as informações relevantes sobre a sua conta.
+Voltar ao Menu Inicial:
+
+Após concluir a adição de créditos ou a ativação do plano mensal, você pode voltar ao menu inicial digitando o comando /menu.
+Agora você pode usar a funcionalidade de adicionar créditos e assinar o plano mensal para aproveitar ao máximo o bot. Lembre-se de verificar regularmente o seu saldo de créditos e o status do plano mensal para garantir uma experiência contínua. Caso tenha alguma dúvida ou precise de assistência, não hesite em contatar o suporte do bot. Aproveite!

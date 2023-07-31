@@ -1,0 +1,23 @@
+Ajuda: Remover Cadastro
+
+O comando /remover_cadastro permite que você remova um cadastro de cliente ou matriz do sistema.
+
+Passo 1: Escolher o Tipo de Cadastro
+Ao executar o comando /remover_cadastro, o bot irá mostrar uma lista de tipos de cadastros disponíveis. Escolha entre "Cliente" ou "Matriz" utilizando os botões interativos.
+
+Passo 2: Selecionar o Cadastro
+Após escolher o tipo de cadastro, o bot irá listar os cadastros existentes desse tipo. Selecione o cadastro que deseja remover através dos botões numerados.
+
+Passo 3: Confirmação
+O bot irá exibir os dados do cadastro selecionado para confirmar a exclusão. Se você estiver certo de que deseja remover o cadastro, prossiga.
+
+Passo 4: Cadastro Removido
+O cadastro será removido do sistema, e o bot irá mostrar uma mensagem confirmando a exclusão.
+
+Observações:
+
+Caso não haja cadastros do tipo selecionado, o bot informará que não há cadastros para remover.
+Se você quiser cancelar a remoção de cadastro em algum momento, basta selecionar a opção "Cancelar" disponível em qualquer etapa.
+Lembre-se: A exclusão de cadastros é uma ação permanente e não pode ser desfeita. Certifique-se de escolher o cadastro correto antes de confirmar a exclusão.
+
+Continue me enviando as próximas partes do seu sistema e suas respectivas perguntas e respostas, e eu continuarei criando o texto de ajuda conforme o desenvolvimento.

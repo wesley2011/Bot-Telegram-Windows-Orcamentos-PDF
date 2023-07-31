@@ -1,0 +1,24 @@
+Ajuda: Gerenciamento de Imagens com Bot do Telegram
+A função e o código fornecido permitem que um bot do Telegram realize o gerenciamento de imagens enviadas pelos usuários. Abaixo estão as principais funcionalidades e como interagir com o bot:
+
+Envio de Imagem:
+Para enviar uma imagem, digite o comando /menu para exibir as opções disponíveis. Selecione "Enviar Foto" e envie a imagem desejada em resposta. O bot armazenará a imagem enviada pelo usuário.
+
+Confirmação de Envio de Imagem:
+O bot solicitará que o usuário confirme o envio da imagem. Basta responder à solicitação para confirmar o envio. Caso não queira enviar a imagem, o usuário pode digitar qualquer mensagem para cancelar a operação.
+
+Visualização de Imagem:
+O usuário pode selecionar a opção "Ver Foto" para visualizar a imagem enviada anteriormente. Caso ainda não tenha enviado uma imagem, o bot informará que nenhuma imagem foi enviada.
+
+Exclusão de Imagem:
+Caso o usuário deseje excluir a imagem enviada, basta selecionar a opção "Excluir Foto". O bot removerá a imagem do sistema. Caso não tenha enviado uma imagem anteriormente, o bot informará que nenhuma imagem foi enviada.
+
+Cancelamento de Operação:
+A qualquer momento, o usuário pode digitar o comando /cancelar para cancelar a operação em andamento.
+
+Tentativas de Envio de Imagem:
+O usuário tem um limite de 3 tentativas para enviar a imagem antes de exceder o número máximo de tentativas. Se as 3 tentativas forem excedidas, o bot encerrará a conversa.
+
+É importante observar que as imagens enviadas pelos usuários são armazenadas em uma pasta específica no diretório "user_data", e o log de imagens é mantido em um arquivo JSON para rastrear o status da imagem (enviada ou excluída).
+
+Sinta-se à vontade para interagir com o bot e experimentar as funcionalidades de gerenciamento de imagens. Se precisar de mais informações ou ajuda, utilize o comando /ajuda para obter assistência adicional.
